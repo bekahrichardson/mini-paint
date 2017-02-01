@@ -1,5 +1,7 @@
 $(document).ready(function() {
   var color = 'white';
+  var colors = 'white green red blue yellow';
+  
   $('.box').on('click', function() {
     $(this).addClass(color);
   })
